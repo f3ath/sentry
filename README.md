@@ -1,5 +1,5 @@
-# chasovoi
-Security Cam Stream Controller
+# sentry
+RTSP stream writer
 
 ## Dependencies
 - ffmpeg
