@@ -1,0 +1,11 @@
+name: sentry
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  intl: ^0.20.2
+  args: ^2.7.0
+
+dev_dependencies:
+  lints: ^6.0.0
