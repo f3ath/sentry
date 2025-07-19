@@ -27,7 +27,7 @@ void main(List<String> args) async {
 
   final finished = writer.start();
 
-  ProcessSignal.sigint.watch().listen((event) async {
+  ProcessSignal.sigint.watch().listen((_) async {
     print('Ctrl-C detected');
     writer.stop();
     print('stopping...');
